@@ -1,0 +1,282 @@
+{
+    "sys": {
+      "type": "Array"
+    },
+    "total": 3,
+    "skip": 0,
+    "limit": 100,
+    "items": [
+      {
+        "metadata": {
+          "tags": []
+        },
+        "sys": {
+          "space": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Space",
+              "id": "mk4vl3fftmmq"
+            }
+          },
+          "id": "7dSxtzXbNMIFtLh3jRSxZy",
+          "type": "Entry",
+          "createdAt": "2022-01-18T22:27:25.918Z",
+          "updatedAt": "2022-01-18T22:27:25.918Z",
+          "environment": {
+            "sys": {
+              "id": "master",
+              "type": "Link",
+              "linkType": "Environment"
+            }
+          },
+          "revision": 1,
+          "contentType": {
+            "sys": {
+              "type": "Link",
+              "linkType": "ContentType",
+              "id": "work"
+            }
+          },
+          "locale": "en-US"
+        },
+        "fields": {
+          "titulo": "Plantas de interior",
+          "imagen": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Asset",
+              "id": "17jXaOkUE7NcfF4G3Dupgc"
+            }
+          },
+          "descripcion": "Una imagen de plantas de interior y una alfombra muy bonita.",
+          "url": "https://robledoakerman.github.io/welcome/"
+        }
+      },
+      {
+        "metadata": {
+          "tags": []
+        },
+        "sys": {
+          "space": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Space",
+              "id": "mk4vl3fftmmq"
+            }
+          },
+          "id": "4jDzTpjEDnGhVF2sCE3kK4",
+          "type": "Entry",
+          "createdAt": "2022-01-18T21:45:53.186Z",
+          "updatedAt": "2022-01-18T21:45:53.186Z",
+          "environment": {
+            "sys": {
+              "id": "master",
+              "type": "Link",
+              "linkType": "Environment"
+            }
+          },
+          "revision": 1,
+          "contentType": {
+            "sys": {
+              "type": "Link",
+              "linkType": "ContentType",
+              "id": "work"
+            }
+          },
+          "locale": "en-US"
+        },
+        "fields": {
+          "titulo": "Casa",
+          "imagen": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Asset",
+              "id": "m1AS9WZVA4JoCZeoiYdj7"
+            }
+          },
+          "descripcion": "Es una hermosa casa con dos chimeneas, dos macetas y dos ventanas. Soñada.",
+          "url": "https://robledoakerman.github.io/welcome/"
+        }
+      },
+      {
+        "metadata": {
+          "tags": []
+        },
+        "sys": {
+          "space": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Space",
+              "id": "mk4vl3fftmmq"
+            }
+          },
+          "id": "5ukSTCYQLEsbGDwdZZdY1E",
+          "type": "Entry",
+          "createdAt": "2022-01-18T21:41:28.910Z",
+          "updatedAt": "2022-01-18T21:42:06.747Z",
+          "environment": {
+            "sys": {
+              "id": "master",
+              "type": "Link",
+              "linkType": "Environment"
+            }
+          },
+          "revision": 2,
+          "contentType": {
+            "sys": {
+              "type": "Link",
+              "linkType": "ContentType",
+              "id": "work"
+            }
+          },
+          "locale": "en-US"
+        },
+        "fields": {
+          "titulo": "Taza",
+          "imagen": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Asset",
+              "id": "6JyDipUbbxguAPIEXOvVlg"
+            }
+          },
+          "descripcion": "Taza antigua con flores amarillas",
+          "url": "https://robledoakerman.github.io/welcome/"
+        }
+      }
+    ],
+    "includes": {
+      "Asset": [
+        {
+          "metadata": {
+            "tags": []
+          },
+          "sys": {
+            "space": {
+              "sys": {
+                "type": "Link",
+                "linkType": "Space",
+                "id": "mk4vl3fftmmq"
+              }
+            },
+            "id": "17jXaOkUE7NcfF4G3Dupgc",
+            "type": "Asset",
+            "createdAt": "2022-01-18T22:26:49.645Z",
+            "updatedAt": "2022-01-18T22:26:49.645Z",
+            "environment": {
+              "sys": {
+                "id": "master",
+                "type": "Link",
+                "linkType": "Environment"
+              }
+            },
+            "revision": 1,
+            "locale": "en-US"
+          },
+          "fields": {
+            "title": "Plantas de interior",
+            "description": "Una imagen con plantas de interior y una alfombra muy bonita",
+            "file": {
+              "url": "//images.ctfassets.net/mk4vl3fftmmq/17jXaOkUE7NcfF4G3Dupgc/8b9770439c5f1458e9f4184beb353ccd/fb38364f5493e59037964f95bd7b89bb.jpg",
+              "details": {
+                "size": 77928,
+                "image": {
+                  "width": 564,
+                  "height": 705
+                }
+              },
+              "fileName": "fb38364f5493e59037964f95bd7b89bb.jpg",
+              "contentType": "image/jpeg"
+            }
+          }
+        },
+        {
+          "metadata": {
+            "tags": []
+          },
+          "sys": {
+            "space": {
+              "sys": {
+                "type": "Link",
+                "linkType": "Space",
+                "id": "mk4vl3fftmmq"
+              }
+            },
+            "id": "6JyDipUbbxguAPIEXOvVlg",
+            "type": "Asset",
+            "createdAt": "2022-01-18T21:40:12.059Z",
+            "updatedAt": "2022-01-19T02:14:20.735Z",
+            "environment": {
+              "sys": {
+                "id": "master",
+                "type": "Link",
+                "linkType": "Environment"
+              }
+            },
+            "revision": 2,
+            "locale": "en-US"
+          },
+          "fields": {
+            "title": "foto",
+            "description": "Es una taza antigua con flores amarillas",
+            "file": {
+              "url": "//images.ctfassets.net/mk4vl3fftmmq/6JyDipUbbxguAPIEXOvVlg/32c6988ad5ba59cffe1da39051a117da/be4a80fcfcfd9c2e3901470bf20f3aa4.jpg",
+              "details": {
+                "size": 19204,
+                "image": {
+                  "width": 564,
+                  "height": 564
+                }
+              },
+              "fileName": "be4a80fcfcfd9c2e3901470bf20f3aa4.jpg",
+              "contentType": "image/jpeg"
+            }
+          }
+        },
+        {
+          "metadata": {
+            "tags": []
+          },
+          "sys": {
+            "space": {
+              "sys": {
+                "type": "Link",
+                "linkType": "Space",
+                "id": "mk4vl3fftmmq"
+              }
+            },
+            "id": "m1AS9WZVA4JoCZeoiYdj7",
+            "type": "Asset",
+            "createdAt": "2022-01-18T21:44:55.741Z",
+            "updatedAt": "2022-01-18T21:44:55.741Z",
+            "environment": {
+              "sys": {
+                "id": "master",
+                "type": "Link",
+                "linkType": "Environment"
+              }
+            },
+            "revision": 1,
+            "locale": "en-US"
+          },
+          "fields": {
+            "title": "Casita",
+            "description": "Es una hermosa casa con dos chimeneas, dos macetas y dos ventanas. Soñada.",
+            "file": {
+              "url": "//images.ctfassets.net/mk4vl3fftmmq/m1AS9WZVA4JoCZeoiYdj7/d41426e1ca57232c3087000c2b7443d4/ebdb66d4df954219b8bd943d9d1356a6.jpg",
+              "details": {
+                "size": 16009,
+                "image": {
+                  "width": 290,
+                  "height": 449
+                }
+              },
+              "fileName": "ebdb66d4df954219b8bd943d9d1356a6.jpg",
+              "contentType": "image/jpeg"
+            }
+          }
+        }
+      ]
+    }
+  }
+
