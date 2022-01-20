@@ -12,12 +12,12 @@ body {
 }
 .portfolio-title {
   font-size: 38px;
-  margin: 40 0 0 0;
+  margin: 40 20px 0 0px;
   text-align: center;
 }
 .portfolio-description {
   font-size: 24px;
-  margin: 7px 0 0 0;
+  margin: 7px 20px 0 20px;
   text-align: center;
 }
 .portfolio-content {
@@ -25,6 +25,16 @@ body {
   padding: 40px;
   display: grid;
   gap: 30px;
+}
+@media (min-width: 640px) {
+  .portfolio-content {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media (min-width: 960px) {
+  .portfolio-content {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
 }
 .portfolio-card {
   border: solid 2px;
@@ -42,7 +52,10 @@ body {
   width: auto;
 }
 .portfolio-card-content {
-  border: lightcoral solid 2px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 255px;
   padding: 20px;
 }
 .portfolio-card-title {
@@ -56,5 +69,5 @@ body {
   color: #51aff3;
   display: block;
   text-align: right;
-  margin-top: 20px;
+  margin: auto 0 0 auto;
 }
