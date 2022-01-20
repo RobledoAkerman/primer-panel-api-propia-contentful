@@ -31,12 +31,14 @@ body {
   border-radius: 5px;
 }
 .portfolio-img-content {
+  height: 255px;
+  width: auto;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 .portfolio-img {
-  height: 255px;
+  height: 100%;
   width: auto;
 }
 .portfolio-card-content {

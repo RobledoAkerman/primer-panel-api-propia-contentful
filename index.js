@@ -24,23 +24,31 @@ function getWorks() {
       return res.json();
     })
     .then((data) => {
-
-      const fieldsCollections = data.items.map((i, n) => {
+      const fieldsCollections = data.items.map((i) => {
         return {
           title: i.fields.titulo,
           description: i.fields.descripcion,
           url: i.fields.url,
-          image: getImgUrl(n),
+          imageID: i.fields.imagen.sys.id,
+          includes: data.includes.Asset,
         };
       });
 
-      function getImgUrl(n) {
-        return data.includes.Asset[n].fields.file.url;
-      }
-
+      fieldsCollections.forEach((x)=>{
+        let idEncontrado = buscarAsset(x.imageID, x.includes);
+        x.image = idEncontrado.fields.file.url
+      })
       return fieldsCollections;
     });
 }
+
+function buscarAsset(assetID, includes){
+  const encontrado = includes.find((inc)=>{
+    return inc.sys.id==assetID
+  })
+  return encontrado
+}
+
 
 function main() {
   getWorks().then(function (works) {
