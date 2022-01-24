@@ -1,14 +1,10 @@
 * {
   box-sizing: border-box;
 }
-
 body {
   font-family: "Poppins", sans-serif;
   margin: 0;
   font-size: 18px;
-}
-
-.portfolio {
 }
 .portfolio-title {
   font-size: 38px;
@@ -26,16 +22,6 @@ body {
   display: grid;
   gap: 30px;
 }
-
-.portfolio-img-content{
-  padding: 20px;
-}
-
-.portfolio-card:hover{
-  box-shadow:  0 0 20px teal;
-
-}
-
 @media (min-width: 640px) {
   .portfolio-content {
     grid-template-columns: 1fr 1fr;
@@ -46,20 +32,28 @@ body {
     grid-template-columns: 1fr 1fr 1fr;
   }
 }
+.portfolio-img-content {
+  padding: 20px;
+}
+.portfolio-card:hover {
+  box-shadow: 0 0 20px teal;
+}
 .portfolio-card {
   border: solid 2px teal;
-  border-radius: 5px;
+  border-radius: 10px;
   flex-grow: 1;
-  width: calc(100% - 40px);
+  width: 100%;
 }
 .portfolio-img-content {
-  height: 255px;
+  height: auto;
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 .portfolio-img {
-  height: 100%;
+  height: auto;
+  width: 100%;
 }
 .portfolio-card-content {
   display: flex;
