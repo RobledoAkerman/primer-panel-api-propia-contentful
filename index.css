@@ -26,6 +26,16 @@ body {
   display: grid;
   gap: 30px;
 }
+
+.portfolio-img-content{
+  padding: 20px;
+}
+
+.portfolio-card:hover{
+  box-shadow:  0 0 20px teal;
+
+}
+
 @media (min-width: 640px) {
   .portfolio-content {
     grid-template-columns: 1fr 1fr;
@@ -37,13 +47,13 @@ body {
   }
 }
 .portfolio-card {
-  border: solid 2px;
+  border: solid 2px teal;
   border-radius: 5px;
+  flex-grow: 1;
   width: calc(100% - 40px);
 }
 .portfolio-img-content {
   height: 255px;
-
   display: flex;
   align-items: center;
   justify-content: center;
