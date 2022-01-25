@@ -5,6 +5,9 @@ body {
   font-family: "Poppins", sans-serif;
   margin: 0;
   font-size: 18px;
+  background-color: #ffebb5;
+}
+.portfolio {
 }
 .portfolio-title {
   font-size: 38px;
@@ -15,12 +18,14 @@ body {
   font-size: 24px;
   margin: 7px 20px 0 20px;
   text-align: center;
+  color: #f47133
 }
 .portfolio-content {
   margin-top: 20px;
   padding: 40px;
   display: grid;
   gap: 30px;
+  background-color: whitesmoke;
 }
 @media (min-width: 640px) {
   .portfolio-content {
@@ -74,4 +79,66 @@ body {
   display: block;
   text-align: right;
   margin: auto 0 0 auto;
+}
+
+.seccion-footer {
+  height: 493px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+@media (min-width: 900px) {
+  .seccion-footer {
+    height: 493px;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  }
+}
+
+.logo-footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.imagen-logo-footer {
+  width: 120px;
+  height: 120px;
+  display: block;
+}
+
+.derechos-reservados {
+}
+
+.redes-sociales {
+  display: flex;
+  flex-direction: column;
+  margin-top: 80px auto auto auto;
+}
+
+.red-social {
+  margin-top: 25px;
+  display: flex;
+  align-content: center;
+}
+
+.logo-linkedin,
+.logo-github {
+  width: 30px;
+  height: 30px;
+  display: inline;
+  margin: auto 0;
+}
+
+.linkedin,
+.github {
+  display: inline;
+  margin: auto 8px;
+}
+.red-social:hover{
+  box-shadow: 0 0 20px #f47133;
 }
