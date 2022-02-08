@@ -55,5 +55,7 @@ function main() {
       addWorkCard(w);
     }
   });
+  const footer = document.querySelector(".seccion-footer");
+  footerComponent(footer);
 }
 main();
