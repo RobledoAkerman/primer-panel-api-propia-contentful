@@ -10,7 +10,7 @@ function addWorkCard(params) {
 
   template.content.querySelector(".portfolio-img").src = params.image;
 
-  template.content.querySelector(".portfolio-card-link").href = params.url;
+  template.content.querySelector(".portfolio-card-link").href = params.image;
 
   const clone = document.importNode(template.content, true);
   container.appendChild(clone);
@@ -28,7 +28,6 @@ function getWorks() {
         return {
           title: i.fields.titulo,
           description: i.fields.descripcion,
-          url: i.fields.url,
           imageID: i.fields.imagen.sys.id,
           includes: data.includes.Asset,
         };
@@ -55,6 +54,12 @@ function main() {
       addWorkCard(w);
     }
   });
+  const header = document.querySelector(".seccion-header");
+  headerComponent(header);
+
+  const contactForm = document.querySelector(".seccion-contacto");
+  contactComponent(contactForm);
+  
   const footer = document.querySelector(".seccion-footer");
   footerComponent(footer);
 }
