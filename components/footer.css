@@ -7,6 +7,9 @@
   justify-content: space-around;
   align-items: center;
 }
+*::selection {
+  background: #c2c793;
+}
 footer{
     width: 100%;
 }

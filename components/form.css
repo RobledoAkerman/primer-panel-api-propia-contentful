@@ -3,6 +3,9 @@
   box-sizing: border-box;
   font-size: 18px;
 }
+*::selection {
+  background: #c2c793;
+}
 
 body {
   margin: 0;
